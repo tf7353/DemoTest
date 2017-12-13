@@ -6,10 +6,6 @@ public class Test {
 		System.out.println(1);
 	}
 
-	@org.junit.Test
-	public void test2(){
-
-	}
 
 }
 
