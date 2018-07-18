@@ -1,6 +1,7 @@
 package com.cn.tf;
 
 
+import com.google.gson.Gson;
 import net.sf.json.JSONNull;
 import net.sf.json.JSONObject;
 import org.apache.commons.lang.StringUtils;
@@ -12,6 +13,7 @@ import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
+import java.math.BigDecimal;
 import java.nio.charset.Charset;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -233,12 +235,9 @@ public class Test {
 	}
 	@org.junit.Test
 	public void test10(){
-		ClassEntity  classEntity = new ClassEntity();
-		//classEntity.setNumber(0);
-		classEntity.setAdresss("1");
-		classEntity.setPhone("2");
+		BigDecimal b = new BigDecimal("7.66");
+		System.out.println(b.longValue()+"|"+b.doubleValue());
 
-		System.out.println(classEntity.hashCode());
 
 	}
 	public static String getCustomerInfo(Map<String,String> customerInfoMap) {
