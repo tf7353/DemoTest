@@ -237,6 +237,8 @@ public class Test {
 	public void test10(){
 		BigDecimal b = new BigDecimal("7.66");
 		System.out.println(b.longValue()+"|"+b.doubleValue());
+		Object o = new Object();
+
 
 
 	}
