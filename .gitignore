@@ -1,6 +1,7 @@
 .idea
 *.iml
 **/target/
+F:/gitTest/DemoTest/sh.exe.stackdump
 /src/retail-web/target/
 src/retail-web/src/main/webapp/H5/couponCentre/static/data2.json
 src/retail-web/src/main/webapp/H5/couponCentre/static/data.json
