@@ -37,6 +37,7 @@ public class Test {
 
 		try {
 //			Gooo
+
 			banktrade = sim.parse(banktradedate);
 		} catch (ParseException e1) {
 			e1.printStackTrace();
