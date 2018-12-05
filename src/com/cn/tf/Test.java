@@ -243,15 +243,15 @@ public class Test {
 	}
 	public static String getCustomerInfo(Map<String,String> customerInfoMap) {
 
-		if(customerInfoMap.isEmpty())
-			return "{}";
+		if(customerInfoMap.isEmpty()){
+			return "{}";}
 		StringBuffer sf = new StringBuffer("{");
 		for(Iterator<String> it = customerInfoMap.keySet().iterator(); it.hasNext();){
 			String key = it.next();
 			String value = customerInfoMap.get(key);
 			sf.append(key).append("=").append(value);
-			if(it.hasNext())
-				sf.append("&");
+			if(it.hasNext()){
+				sf.append("&");}
 		}
 		String customerInfo = sf.append("}").toString();
 		return customerInfo;
