@@ -251,7 +251,6 @@ public class Test {
                 case 2:
                     System.out.println("2");
                 default:
-                    System.out.println("default");//我先加的注释
                     System.out.println("default");//加个注释
             }
             //System.err.println( JSONObject.toJSONString(returnMap) );
