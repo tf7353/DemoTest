@@ -237,9 +237,22 @@ public class Test {
 		BigDecimal b = new BigDecimal("7.66");
 		System.out.println(b.longValue()+"|"+b.doubleValue());
 		Object o = new Object();
-
-
-
+	}
+	@org.junit.Test
+	public void test11(){
+		//如果找到第一个匹配,而没有break,则会把后边的代码都走一遍
+            int i = 1;
+            switch(i){
+                case 0:
+                    System.out.println("0");
+                case 1:
+                    System.out.println("1");
+                case 2:
+                    System.out.println("2");
+                default:
+                    System.out.println("default");
+            }
+            //System.err.println( JSONObject.toJSONString(returnMap) );
 	}
 	public static String getCustomerInfo(Map<String,String> customerInfoMap) {
 
